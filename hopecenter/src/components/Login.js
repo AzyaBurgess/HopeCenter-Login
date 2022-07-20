@@ -26,16 +26,12 @@ const Login=()=> {
                 <Grid align="center">
                 
                 <h2>The Hope Center</h2>
-                </Grid>
+                <Typography>Forgot Password</Typography>
+                  </Grid>
+                
         <TextField label="Username" placeholder="Enter Username" fullWidth required></TextField>
-        <FormControlLabel
-            control={
-                <Checkbox
-                    name="Checked"
-                    color="primary"
-            />}
-            label="Remember me"
-            />
+        
+            
             <Button
                 type="Submit"
                 color="primary"
